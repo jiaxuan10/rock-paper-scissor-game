@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="600.0" maxWidth="1000.0" minHeight="600.0" minWidth="1000.0" prefHeight="300.0" prefWidth="600.0" stylesheets="@../../../../style/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.game.controllers.HowToPlayController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="617.0" fitWidth="1080.0" layoutX="-78.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/howToPlayBackgound.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.37" />
+               </effect>
+            </ImageView>
+            <Label layoutX="289.0" layoutY="14.0" prefHeight="100.0" prefWidth="422.0" style="-fx-font-size: 50;" styleClass="matemasie-regular" text="HOW TO PLAY" textFill="WHITE">
+               <effect>
+                  <DropShadow />
+               </effect></Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffcc80" height="157.0" layoutX="97.0" layoutY="127.0" stroke="BLACK" strokeType="INSIDE" width="820.0" />
+            <ImageView fitHeight="255.0" fitWidth="1088.0" layoutX="-31.0" layoutY="79.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../image/woodBoder.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="119.0" layoutY="140.0" prefHeight="119.0" prefWidth="820.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="4.0" text="1. At the start, you and the computer have a set of cards: 2 x Rock, 2 x Paper, and 2 x Scissors.">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="24.0" text="2. Click on a card to play it. The computer will simultaneously play one of its cards.">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="44.0" text="3. The winner of the round takes the loser's card. If it's a tie, both cards are discarded.">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="64.0" text="4. The game continues until either player runs out of cards.">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="84.0" text="5. The player with the most cards at the end wins.">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="97.0" layoutY="367.0" prefHeight="144.0" prefWidth="561.0" style="-fx-background-color: ffcc80;">
+               <children>
+                  <Label layoutX="14.0" layoutY="7.0" text="Tips:">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                     <effect>
+                        <Bloom />
+                     </effect>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="45.0" text="• Observe the computer's pattern to predict its next move.">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="74.0" text="• Use the transition phase to think strategically about your next move.">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="103.0" text="• Keep track of the remaining cards to make informed decisions.">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </AnchorPane>
+            <ImageView fitHeight="255.0" fitWidth="766.0" layoutX="-2.0" layoutY="312.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../image/woodBoder.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="214.0" fitWidth="317.0" layoutX="720.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/computer.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="764.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/player.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="91.0" layoutX="14.0" layoutY="34.0" onMouseClicked="#backHomePage" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../image/back.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
