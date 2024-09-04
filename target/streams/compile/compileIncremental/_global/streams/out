@@ -1,0 +1,59 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/src/main/scala/ch/makery/address/entities/Game.scala, ${BASE}/src/main/scala/ch/makery/address/entities/Card.scala, ${BASE}/src/main/scala/ch/makery/address/controllers/HomePageController.scala, ${BASE}/src/main/scala/ch/makery/address/entities/Player.scala, ${BASE}/src/main/scala/ch/makery/address/Main.scala, ${BASE}/src/main/scala/ch/makery/address/controllers/GamePageController.scala, ${BASE}/src/main/scala/ch/makery/address/model/GameLogic.scala, ${BASE}/src/main/scala/ch/makery/address/entities/ComputerPlayer.scala, ${BASE}/src/main/scala/ch/makery/address/model/TimerLogic.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/ch/makery/address/entities/Player.scala, ${BASE}/src/main/scala/ch/makery/address/controllers/HomePageController.scala, ${BASE}/src/main/scala/ch/makery/address/model/GameLogic.scala, ${BASE}/src/main/scala/ch/makery/address/model/TimerLogic.scala, ${BASE}/src/main/scala/ch/makery/address/entities/Game.scala, ${BASE}/src/main/scala/ch/makery/address/entities/ComputerPlayer.scala, ${BASE}/src/main/scala/ch/makery/address/controllers/GamePageController.scala, ${BASE}/src/main/scala/ch/makery/address/Main.scala, ${BASE}/src/main/scala/ch/makery/address/entities/Card.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 9 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
+[debug] compilation cycle 1
+[info] compiling 9 Scala sources to D:\GitHub\finalprojectv2-jiaxuan10\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.9.5:compile for Scala 2.12.18
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.18. Compiling...
+[debug] Creating plain compiler interface for 2.12.18.
+[debug]   > Arguments: 
+[debug] 	-d
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_4c3b6e7d
+[debug] 	-nowarn
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes;C:\Users\Huawei PC\.sbt\boot\scala-2.12.18\lib\scala-library.jar
+[debug] 	-classpath
+[debug] 	C:\Users\Huawei PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.9.5\compiler-interface-1.9.5.jar;C:\Users\Huawei PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.9.4\util-interface-1.9.4.jar;C:\Users\Huawei PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-bridge_2.12\1.9.5\compiler-bridge_2.12-1.9.5-sources.jar;C:\Users\Huawei PC\.sbt\boot\scala-2.12.18\lib\scala-compiler.jar;C:\Users\Huawei PC\.sbt\boot\scala-2.12.18\lib\scala-reflect.jar;C:\Users\Huawei PC\.sbt\boot\scala-2.12.18\lib\scala-xml_2.12-2.1.0.jar
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\scala\ZincCompat.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\API.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\AbstractZincFile.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\Analyzer.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\CallbackGlobal.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\ClassName.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\Compat.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\CompilerBridge.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\ConsoleBridge.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\DelegatingReporter.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\Dependency.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\ExtractAPI.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\ExtractUsedNames.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\GlobalHelpers.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\InteractiveConsoleBridge.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\InteractiveConsoleFactoryBridge.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\InteractiveConsoleHelper.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\InteractiveConsoleResponse.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\JarUtils.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\JavaUtils.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\LocalToNonLocalClass.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\LocateClassFile.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\Log.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\Message.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\PlainNioFile.scala
+[debug] 	C:\Users\HUAWEI~1\AppData\Local\Temp\sbt_71ad5e89\xsbt\ScaladocBridge.scala
+[debug]       
+[info]   Compilation completed in 22.863s.
+[debug] [zinc] Running cached compiler 3f4f7c04 for Scala compiler version 2.12.18
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-Xplugin:C:\Users\Huawei PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalamacros\paradise_2.12.18\2.1.1\paradise_2.12.18-2.1.1.jar
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes;C:\Users\Huawei PC\.sbt\boot\scala-2.12.18\lib\scala-library.jar
+[debug] 	-classpath
+[debug] 	D:\GitHub\finalprojectv2-jiaxuan10\target\scala-2.12\classes;C:\Users\Huawei PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalafx\scalafx_2.12\12.0.2-R18\scalafx_2.12-12.0.2-R18.jar;C:\Users\Huawei PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalafx\scalafxml-core-sfx8_2.12\0.5\scalafxml-core-sfx8_2.12-0.5.jar;C:\Users\Huawei PC\.sbt\boot\scala-2.12.18\lib\scala-reflect.jar;C:\Users\Huawei PC\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalafx\scalafxml-core-macros-sfx8_2.12\0.5\scalafxml-core-macros-sfx8_2.12-0.5.jar
+[debug] Scala compilation took 31.1989126 s
+[info] done compiling

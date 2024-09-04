@@ -1,0 +1,14 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to D:\GitHub\finalprojectv2-jiaxuan10\target\scala-2.12\classes ...
+[error] D:\GitHub\finalprojectv2-jiaxuan10\src\main\scala\MyApp.scala:3:22: not found: type JFXApp
+[error] object MyApp extends JFXApp{
+[error]                      ^
+[error] D:\GitHub\finalprojectv2-jiaxuan10\src\main\scala\MyApp.scala:11:22: not found: type FXMLLoader
+[error]     val loader = new FXMLLoader(resource,NoDependencyResolver)
+[error]                      ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 0 s, completed Aug 16, 2024 9:54:18 PM
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,9 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 9 Scala sources to D:\GitHub\finalprojectv2-jiaxuan10\target\scala-2.12\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.18. Compiling...
+[info]   Compilation completed in 22.863s.
+[info] done compiling
+[success] Total time: 34 s, completed Aug 20, 2024 2:26:33 PM
+[debug] > Exec(idea-shell, None, None)

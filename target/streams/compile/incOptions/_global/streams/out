@@ -1,0 +1,36 @@
+[debug] Created transactional ClassFileManager with tempDir = D:\GitHub\finalprojectv2-jiaxuan10\target\scala-2.12\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Created transactional ClassFileManager with tempDir = D:\GitHub\finalprojectv2-jiaxuan10\target\scala-2.12\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	Paper$.class
+[debug] 	GameLogic.class
+[debug] 	GamePageController$Controller$$anon$3.class
+[debug] 	Scissor$.class
+[debug] 	Rock.class
+[debug] 	GamePageController$Controller$$anon$5.class
+[debug] 	Main.class
+[debug] 	GamePageController$Controller$$anon$8.class
+[debug] 	Scissor.class
+[debug] 	Rock$.class
+[debug] 	TimerLogic.class
+[debug] 	Card.class
+[debug] 	Main$.class
+[debug] 	HomePageController$Controller.class
+[debug] 	GamePageController$Controller$$anon$9.class
+[debug] 	ComputerPlayer.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	GamePageController$Controller$$anon$6.class
+[debug] 	HomePageController.class
+[debug] 	GamePageController$Controller.class
+[debug] 	Main$$anon$1.class
+[debug] 	Paper.class
+[debug] 	GamePageController$Controller$$anon$7.class
+[debug] 	GamePageController$Controller$$anon$1.class
+[debug] 	GamePageController$Controller$$anon$2.class
+[debug] 	Player.class
+[debug] 	GamePageController$Controller$$anon$4.class
+[debug] 	GamePageController.class
+[debug] Removing the temporary directory used for backing up class files: D:\GitHub\finalprojectv2-jiaxuan10\target\scala-2.12\classes.bak

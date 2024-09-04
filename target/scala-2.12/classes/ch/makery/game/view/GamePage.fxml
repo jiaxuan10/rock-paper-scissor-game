@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainScene" maxHeight="600.0" maxWidth="1000.0" minHeight="600.0" minWidth="1000.0" onMouseMoved="#closeTransitionScene" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.game.controllers.GamePageController">
+   <children>
+      <ImageView fitHeight="614.0" fitWidth="1082.0" layoutX="-82.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../image/gameimg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="1.0" fitWidth="91.0" layoutX="157.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../image/card/rockCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="319.0" fitWidth="296.0" layoutX="-41.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../image/player.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <AnchorPane fx:id="playerCardsPane" layoutX="200.0" layoutY="130.0" prefHeight="433.0" prefWidth="233.0">
+         <children>
+            <ImageView fx:id="scissor" fitHeight="116.0" fitWidth="78.0" layoutX="-7.0" layoutY="113.0" onMousePressed="#handleCardPress" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/scissorCard.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="scissor" fitHeight="116.0" fitWidth="78.0" layoutX="83.0" layoutY="113.0" onMousePressed="#handleCardPress" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/scissorCard.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="rock" fitHeight="116.0" fitWidth="78.0" layoutX="-7.0" layoutY="-11.0" onMousePressed="#handleCardPress" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/rockCard.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="paper" fitHeight="116.0" fitWidth="78.0" layoutX="-7.0" layoutY="238.0" onMousePressed="#handleCardPress" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/paperCard.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="paper" fitHeight="116.0" fitWidth="78.0" layoutX="83.0" layoutY="238.0" onMousePressed="#handleCardPress" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/paperCard.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="rock" fitHeight="116.0" fitWidth="78.0" layoutX="83.0" layoutY="-11.0" onMousePressed="#handleCardPress" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/rockCard.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane fx:id="computerCardsPane" cacheShape="false" centerShape="false" focusTraversable="true" layoutX="420.0" layoutY="130.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="433.0" prefWidth="389.0">
+         <children>
+            <ImageView fx:id="question" fitHeight="116.0" fitWidth="78.0" layoutX="-7.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/computerCard.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="question" fitHeight="116.0" fitWidth="78.0" layoutX="83.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/computerCard.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="question" fitHeight="116.0" fitWidth="78.0" layoutX="-7.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/computerCard.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="question" fitHeight="116.0" fitWidth="78.0" layoutX="83.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/computerCard.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="question" fitHeight="116.0" fitWidth="78.0" layoutX="-7.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/computerCard.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="question" fitHeight="116.0" fitWidth="78.0" layoutX="83.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../image/card/computerCard.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="155.0" fitWidth="182.0" layoutX="821.0" layoutY="245.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../image/computer.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <AnchorPane id="transitionScene" fx:id="transitionScene" disable="true" layoutY="178.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000; -fx-opacity: 80%;">
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutY="71.0" opacity="0.54" prefHeight="85.0" prefWidth="1000.0" text="Please Select A Card" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font name="Britannic Bold" size="58.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="resultpane" layoutX="208.0" layoutY="155.0" prefHeight="324.0" prefWidth="585.0" style="-fx-background-color: #f5f5dc#f5f5dc; -fx-border-radius: 40; -fx-border-width: 5; -fx-border-color: #17202a; -fx-background-radius: 50;" visible="false">
+         <children>
+            <Label layoutX="104.0" layoutY="27.0" text="Player">
+               <font>
+                  <Font name="Britannic Bold" size="31.0" />
+               </font>
+            </Label>
+            <Label layoutX="378.0" layoutY="27.0" text="Computer">
+               <font>
+                  <Font name="Britannic Bold" size="31.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="playerSelectedCard" fitHeight="150.0" fitWidth="134.0" layoutX="81.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="computerSelectedCard" fitHeight="150.0" fitWidth="134.0" layoutX="378.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="274.0" fitWidth="109.0" layoutX="225.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" rotate="-5.0">
+               <image>
+                  <Image url="@../../../../image/vs.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="resultLabel" alignment="CENTER" layoutX="159.0" layoutY="-24.0" prefHeight="49.0" prefWidth="267.0" style="-fx-background-color: d79556;" text="You Win This Round" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Britannic Bold" size="23.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </padding>
+               <effect>
+                  <DropShadow>
+                     <input>
+                        <InnerShadow />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Label>
+            <Label fx:id="resultPhase" alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="292.0" prefHeight="16.0" prefWidth="327.0" text="Both sides lose a ${playerCard.toString} card." textAlignment="CENTER">
+               <font>
+                  <Font name="Britannic Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <AnchorPane fx:id="finalResultPane" layoutX="-5.0" layoutY="147.0" prefHeight="341.0" prefWidth="1010.0" visible="false">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="341.0" opacity="0.84" stroke="BLACK" strokeType="INSIDE" width="1010.0" />
+            <Label fx:id="finalPhase" alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" onMouseClicked="#backHomePage" prefHeight="334.0" prefWidth="1010.0" text="You Win" textFill="#0006ff">
+               <font>
+                  <Font name="Britannic Bold" size="70.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label layoutX="351.0" layoutY="297.0" prefHeight="22.0" prefWidth="327.0" text="—Tap to return to the home page—" textFill="WHITE">
+               <font>
+                  <Font name="Britannic Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
